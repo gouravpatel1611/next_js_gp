@@ -1,0 +1,22 @@
+import React from 'react';
+import { useRouter } from 'next/router'
+import styles from '../../styles/blogpost.module.css'
+
+
+const slug = () => {
+    const rt = useRouter();
+    const {slug} = rt.query;
+  return (
+    <div className={styles.container}>
+    <main className={styles.main}>
+    <h1 className={styles.title}>
+          <span className='myspn'> Title of this page is {slug}</span>
+        </h1>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos, omnis voluptatibus, consectetur ducimus officiis sapiente iusto fugiat a explicabo placeat, blanditiis consequatur tenetur minima voluptate labore praesentium. Magni dicta esse iure ut itaque fuga ipsam? Possimus libero, ducimus atque in sit accusantium dicta velit repudiandae illo ex aspernatur nihil aperiam a consequatur tempore delectus! Nemo recusandae porro non quia dolor amet, aspernatur maiores explicabo eveniet repellat aliquid quos nulla assumenda similique delectus placeat harum velit molestiae itaque consectetur fugiat impedit quo ipsam. Recusandae cum eius sint architecto odio qui corrupti ullam doloremque nesciunt quod ipsam dicta error, neque assumenda necessitatibus consequuntur illum suscipit maiores labore incidunt voluptate nemo. Modi fuga recusandae nobis illum, quasi at consequatur sequi unde numquam aliquid illo ea vero corrupti perspiciatis voluptatem saepe asperiores iste eaque laborum quis voluptatum? Blanditiis, enim possimus. Odit natus assumenda blanditiis iure distinctio cum necessitatibus esse atque asperiores dignissimos! Et illum quasi odio totam fugiat adipisci cumque saepe, in blanditiis doloremque, nihil dolorum, quis sapiente ipsam corporis vel! Tenetur dolor beatae sapiente rerum molestiae esse vero exercitationem ab obcaecati, cumque eligendi, dignissimos, hic culpa possimus quos unde suscipit ut? Temporibus quo error accusantium minus nihil, quia in, aliquam enim voluptas nisi magnam voluptatum sint impedit natus dolor quisquam praesentium molestias nostrum. Inventore voluptas veritatis eaque eos fugit similique maxime nemo? Nobis atque ullam neque quis eos iure! Labore voluptate, maiores eveniet tempora id optio enim neque, quibusdam consectetur doloremque omnis quas. Qui vero sint molestiae consequuntur, accusantium nesciunt veniam doloremque, mollitia distinctio hic aliquam! Consequuntur quisquam magni eum natus, sunt blanditiis non ipsam itaque praesentium hic, nisi accusantium enim odio molestias? Corporis maiores dicta inventore quisquam velit minus at adipisci minima porro incidunt, expedita dolorem sed, officiis totam, ipsa consectetur corrupti sint doloremque dolores omnis ea ratione obcaecati tempore! Soluta nesciunt ea suscipit aperiam? Perspiciatis aperiam rem fuga praesentium, quisquam id laudantium odit omnis. Corrupti consequatur accusantium quidem natus, voluptatem tempore minima quia veniam expedita fugiat soluta a sequi. Perspiciatis, repellat numquam. Placeat veritatis ab eveniet ratione, velit in possimus harum nemo maiores commodi quam officia excepturi illo odit fugit quo asperiores itaque odio fugiat nulla quisquam esse eligendi eos? Amet atque ratione inventore sunt, voluptate quod recusandae commodi totam dolore explicabo reiciendis repellat consequuntur sapiente temporibus tempora ipsa iusto eligendi. Repellat laborum corporis corrupti veritatis rerum, libero aperiam doloribus adipisci eius nisi odio! Aspernatur illo suscipit, quia sint molestias magnam nisi libero totam quod? Hic quas accusamus neque? Recusandae officia nobis sapiente omnis, at voluptas error aut reprehenderit consequuntur. Eum suscipit consectetur incidunt asperiores. Quibusdam odit nulla unde necessitatibus facilis, vero nihil voluptas facere magnam. Sunt mollitia hic repellat, quae quibusdam natus voluptates perferendis aliquam ratione qui voluptas explicabo veritatis, quisquam harum quidem odit. Nostrum facilis sed culpa placeat molestiae sit eligendi blanditiis error rem repellendus mollitia animi voluptates totam, obcaecati reiciendis voluptatum ipsa harum consequatur fuga at. Eligendi, cumque fugiat deserunt vero ratione veritatis illum quos commodi, assumenda placeat, quasi quae eum! Eveniet recusandae quisquam nemo quasi quae. Minus.</p>
+
+    </main>
+    </div>
+  )
+}
+
+export default slug

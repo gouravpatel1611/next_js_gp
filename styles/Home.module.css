@@ -51,7 +51,6 @@
 }
 
 .description {
-  margin: 4rem 0;
   line-height: 1.5;
   font-size: 1.5rem;
 }
@@ -124,4 +123,12 @@
 .mainnav ul li  {
   padding: 10px;
   font-weight: bold;
+}
+
+.myimg{
+  /* border: 2px solid red; */
+  border-radius: 15px;
+}
+.img_wrp{
+  margin-top: 1%;
 }
